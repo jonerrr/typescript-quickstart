@@ -8,4 +8,6 @@ function foo(bar: string, i: number) {
 	return bar;
 }
 
+foo("bar", 1);
+
 export default foo;

@@ -1,0 +1,10 @@
+build/
+node_modules/
+.git/
+.github
+.env.example
+.gitignore
+.docker-compose.yml
+LICENSE
+README.md
+rome.json
