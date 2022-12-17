@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "target": "ES2016",
+    "allowJs": true,
+    "importsNotUsedAsValues": "error"
+  },
+  "include": ["src/**/*.ts"],
+  "ts-node": {
+    "swc": true
+  }
+}
